@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Third Wave Coffee Roasters</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background: url('OIP.jpg') no-repeat center center fixed;
+background-size: cover;
+color: #fff;
+}
+
+header {
+background: rgba(107, 79, 79, 0.9);
+color: #fff;
+padding: 1rem;
+text-align: center;
+}
+
+header h1 {
+font-size: 2.5rem;
+}
+
+nav {
+background: rgba(60, 47, 47, 0.9);
+color: #fff;
+display: flex;
+justify-content: center;
+padding: 0.5rem 0;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+margin: 0 1rem;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #d4a373;
+}
+
+.hero {
+background: rgba(0, 0, 0, 0.6);
+height: 60vh;
+color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.hero h2 {
+font-size: 3rem;
+margin-bottom: 0.5rem;
+}
+
+.hero p {
+font-size: 1.5rem;
+}
+
+.section {
+padding: 2rem;
+text-align: center;
+background: rgba(0, 0, 0, 0.6);
+margin: 1rem;
+border-radius: 10px;
+}
+
+.menu {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 2rem;
+}
+
+.menu-item {
+background: rgba(248, 241, 241, 0.9);
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 1rem;
+width: 300px;
+text-align: center;
+color: #6b4f4f;
+}
+
+.menu-item h3 {
+margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+color: #6b4f4f;
+}
+
+footer {
+background: rgba(60, 47, 47, 0.9);
+color: #fff;
+text-align: center;
+padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+.hero h2 {
+font-size: 2.5rem;
+}
+
+.hero p {
+font-size: 1.2rem;
+}
+}
+
+@media (max-width: 576px) {
+nav {
+flex-direction: column;
+}
+
+.menu {
+flex-direction: column;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Third Wave Coffee Roasters</h1>
+</header>
+<nav>
+<a href="#about">About</a>
+<a href="#menu">Menu</a>
+<a href="#contact">Contact</a>
+</nav>
+<section class="hero">
+<h2>Welcome to Third Wave Coffee Roasters</h2>
+<p>Crafting exceptional coffee experiences in Bangalore.</p>
+</section>
+<section id="about" class="section">
+<h2>About Us</h2>
+<p>Third Wave Coffee Roasters is dedicated to bringing the finest coffee to Bangalore. We source, roast, and brew with care to ensure every cup tells a story.</p>
+</section>
+<section id="menu" class="section">
+<h2>Our Menu</h2>
+<div class="menu">
+<div class="menu-item">
+<h3>Single Origin Espresso</h3>
+<p>₹250</p>
+</div>
+<div class="menu-item">
+<h3>Flat White</h3>
+<p>₹300</p>
+</div>
+<div class="menu-item">
+<h3>Pour Over</h3>
+<p>₹350</p>
+</div>
+<div class="menu-item">
+<h3>Cold Brew</h3>
+<p>₹280</p>
+</div>
+</div>
+</section>
+<section id="contact" class="section">
+<h2>Contact Us</h2>
+<p>Email: hello@thirdwavecoffee.com</p>
+<p>Phone: +91 98765 43210</p>
+<p>Address: 4th Block, Koramangala, Bangalore, India</p>
+</section>
+<footer>
+<p>&copy; 2025 Third Wave Coffee Roasters. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
